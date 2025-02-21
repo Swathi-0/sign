@@ -7,7 +7,7 @@ import mediapipe as mp
 app = Flask(__name__)
 
 # Load the trained model
-model = tf.keras.models.load_model('path_to_model/actionswaroop2.h5')
+model = tf.keras.models.load_model('Action Detection Refined copy.ipynb')
 
 # MediaPipe Hand Landmark Setup
 mp_hands = mp.solutions.hands
